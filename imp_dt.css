@@ -1,0 +1,1375 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* 1 */
+/*tbd*/
+
+body{
+    /*background-image: url("pics/Start_Sandra.png");*/
+    /*background-image: url("pics/StartseitenBild.jpg"); */
+    background: #DEDEDE;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    /*background: #292929;*/
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+/*    .Startseite{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    left: 0px;
+    top: 0px;
+   
+    
+}*/
+
+
+
+
+
+/*done320*/
+/*@media screen and (max-width: 320px) {*/
+    .header_container{
+        height: 25%;
+        top: 0%;
+        left: 0%; 
+    
+    }   
+
+     /*Navbar*/
+     .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+         height: 72px;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        width: 99%;
+        position: absolute;
+        left: 2%;
+        top: 20%;
+    }
+    nav {
+        display: flex;
+        align-items: flex-start; /*center;*/
+        /*justify-content: space-between;*%`/
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+        padding-left: 0;
+         
+      }
+      
+      nav ul {
+        display: flex;
+        padding-left: 0%;
+        width: 99%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 5%; /*100px*/
+        margin-left: 1%;
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+    }
+
+
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        /*width: 442px;*/
+        width: 90%;
+        /*height: 102px;*/
+        height: 12%;
+        /*left: 154px;
+        top: 262px;*/
+        left: 9%;
+        top: 3%;
+    }
+
+
+
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+    
+    }
+
+    img{
+        width: 90%; 
+        height: 100%;
+    }
+    /* Line 1 */
+
+    hr.solid {
+        position: absolute;
+        /*width: 350px;*/
+        width: 97%;
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 1%;
+        top: 15%;
+    
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+        
+   
+    
+        
+    .textblock{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        /*height: 100%;*/
+        /*height: 90%;*/
+        left: 0px;
+        top: 26%;
+        float: left;
+        background: #B9AFAE;
+     }
+    
+     .a_email{
+        color: #FFFFFF;
+        text-transform: lowercase;
+     }
+        
+     a{
+        color: #FFFFFF;
+     }   
+        
+        
+    
+        
+    .ptext{
+        position: relative; 
+        left: 2%;
+        width: 98%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 23px;
+        /*text-transform: capitalize;*/
+        word-wrap: break-word;
+        color: #FFFFFF;
+    
+    }
+       
+    
+    
+    .footer_box{
+        bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 10%;
+        background: #DEDEDE;
+        position: fixed;
+    
+    }
+        
+    footer{
+        display: flex; 
+        float: left;
+        
+        position: fixed;
+        left: 2%;
+        width: 95%;
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+       /* left: 38%;*/
+        left: 2%;
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        word-spacing: 1em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        /*left: 45%;*/
+        left: 10%;
+    }    
+    
+
+
+
+ /* }*/
+
+/*passt soweit max-width: 600px*/
+@media screen and (min-width: 450px) {
+    .header_container{
+        height: 25%;
+        top: 0%;
+        left: 0%; 
+    
+    }   
+
+      /*Navbar*/
+      .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+         height: 72px;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 20%;
+    }
+    nav {
+        display: flex;
+        align-items: flex-start; /*center;*/
+        /*justify-content: space-between;*%`/
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+        padding-left: 0;
+         
+      }
+      
+      nav ul {
+        display: flex;
+        padding-left: 0%;
+        width: 99%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 5%; /*100px*/
+        margin-left: 1%;
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+    }
+
+
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        /*width: 442px;*/
+        width: 90%;
+        /*height: 102px;*/
+        height: 12%;
+        /*left: 154px;
+        top: 262px;*/
+        left: 9%;
+        top: 3%;
+    }
+
+
+
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+    
+    }
+
+    img{
+        width: 90%; 
+        height: 100%;
+    }
+    /* Line 1 */
+
+    hr.solid {
+        position: absolute;
+        /*width: 350px;*/
+        width: 91%;
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 3%;
+        top: 15%;
+    
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+        
+        
+   
+    
+        
+    .textblock{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        /*height: 100%;*/
+        /*height: 90%;*/
+        left: 0px;
+        top: 26%;
+        float: left;
+        background: #B9AFAE;
+     }
+    
+     .a_email{
+        color: #FFFFFF;
+        text-transform: lowercase;
+     }
+        
+     a{
+        color: #FFFFFF;
+     }   
+        
+        
+    
+        
+    .ptext{
+        position: relative; 
+        left: 2%;
+        width: 97%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 23px;
+        /*text-transform: capitalize;*/
+        word-wrap: break-word;
+        color: #FFFFFF;
+    
+    }
+       
+    
+    
+    .footer_box{
+        bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 10%;
+        background: #DEDEDE;
+        position: fixed;
+    
+    }
+        
+    footer{
+        display: flex; 
+        float: left;
+        width: 80%;
+        position: fixed;
+        left: 10%;
+        
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+       /* left: 38%;*/
+        left: 3%;
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        word-spacing: 1em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        /*left: 45%;*/
+        left: 10%;
+    }    
+    
+
+
+
+  }
+/*sieht soweit gut aus*/
+@media screen and (min-width: 600px) {
+    .header_container{
+        height: 25%;
+        top: 0%;
+        left: 0%; 
+    
+    }   
+
+      /*Navbar*/
+      .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+         height: 72px;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        width: 80%;
+        position: absolute;
+        left: 15%;
+        top: 20%;
+    }
+    nav {
+        display: flex;
+        align-items: flex-start; /*center;*/
+        /*justify-content: space-between;*%`/
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+        padding-left: 0;
+         
+      }
+      
+      nav ul {
+        display: flex;
+        padding-left: 0%;
+        width: 99%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 5%; /*100px*/
+        margin-left: 1%;
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+    }
+
+
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        /*width: 442px;*/
+        width: 90%;
+        /*height: 102px;*/
+        height: 12%;
+        /*left: 154px;
+        top: 262px;*/
+        left: 9%;
+        top: 3%;
+    }
+
+
+
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+    
+    }
+
+    img{
+        width: 90%; 
+        height: 100%;
+    }
+    /* Line 1 */
+
+    hr.solid {
+        position: absolute;
+        /*width: 350px;*/
+        width: 91%;
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 3%;
+        top: 15%;
+    
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+        
+        
+   
+    
+        
+    .textblock{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        /*height: 100%;*/
+        /*height: 90%;*/
+        left: 0px;
+        top: 26%;
+        float: left;
+        background: #B9AFAE;
+     }
+    
+     .a_email{
+        color: #FFFFFF;
+        text-transform: lowercase;
+     }
+        
+     a{
+        color: #FFFFFF;
+     }   
+        
+        
+    
+        
+    .ptext{
+        position: relative; 
+        left: 2%;
+        width: 97%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 23px;
+        /*text-transform: capitalize;*/
+        word-wrap: break-word;
+        color: #FFFFFF;
+    
+    }
+       
+    
+    
+    .footer_box{
+        bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 10%;
+        background: #DEDEDE;
+        position: fixed;
+    
+    }
+        
+    footer{
+        display: flex; 
+        float: left;
+        width: 55%;
+        position: fixed;
+        left: 20%;
+        
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+       /* left: 38%;*/
+        left: 3%;
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        word-spacing: 1em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        /*left: 45%;*/
+        left: 10%;
+    }    
+    
+
+
+
+  }
+
+/*passt soweit*/
+@media screen and (min-width: 768px){
+    .header_container{
+        height: 25%;
+        top: 0%;
+        left: 0%; 
+    
+    }   
+        
+    /*Navbar*/
+    .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+        height: 72px;
+        width: 80%;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        position: absolute;
+        left: 12%;
+        top: 18%;
+    }
+          
+    .wrapper {
+        width: 100%;  /*Vielleicht ausbauen!!!!!*/
+        margin: 0 auto;
+        /*left: 12%;
+        top: 54%;*/
+    }
+          
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+    }
+          
+    nav ul {
+        display: flex;
+        width: 100%;
+    }
+          
+         
+          
+    .nav-items li {
+        list-style: none;
+        margin-right: 10%; /*100px*/
+            
+    }
+          
+    .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+    }
+          
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+            
+        color: #292929;
+    }
+        
+     
+        
+        
+        
+    
+        
+        
+        
+        /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        width: 40%;/*442px;*/
+        height: 12%;/*102px; 12%*/
+        /*left: 154px;
+        top: 262px;*/
+        left: 30%;
+        top: 3%;
+    }
+        
+        
+        
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+            
+    }
+        
+    img{
+        width: 100%; 
+        height: 100%;
+    }   
+        
+        
+        
+    /* Line 1 */
+        
+    hr.solid {
+        position: absolute;
+        width: 82%; /*568px*/
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 10%;
+        top: 15%;
+        
+        
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+        
+    .textblock{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        /*height: 100%;*/
+        /*height: 90%;*/
+        left: 0px;
+        top: 26%;
+        float: left;
+        background: #B9AFAE;
+     }
+    
+     .a_email{
+        color: #FFFFFF;
+        text-transform: lowercase;
+     }
+        
+     a{
+        color: #FFFFFF;
+     }   
+        
+        
+    
+        
+    .ptext{
+        position: relative; 
+        left: 25%;
+        width: 50%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 23px;
+        /*text-transform: capitalize;*/
+    
+        color: #FFFFFF;
+    
+    }
+       
+    
+    
+    .footer_box{
+        bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 10%;
+        background: #DEDEDE;
+        position: fixed;
+    
+    }
+        
+        
+        
+        /* © sandra pietzschmann Impressum datenschutz */
+    footer{
+        display: flex; 
+        float: left;
+            
+        position: fixed;
+        left: 25%;
+        width: 50%;    
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        /*justify-content: space-between;*/
+    }
+    .pfooter{   
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        
+        
+        
+        
+        display: flex; 
+        /*justify-content: space-between;*/
+        /*text-align: center; left 38%*/
+        top: 91%;
+        left: 28%;
+     }
+    .afooter{
+            
+        display: flex;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        word-spacing: 2em;
+        /*justify-content: space-between;*/
+        /*text-align: center; left 45%*/
+        left: 25%;
+    }
+}
+
+/*Großbild 1*/
+@media only screen and (min-width: 992px) {
+    .header_container{
+        height: 25%;
+        top: 0%;
+        left: 0%; 
+        
+    }   
+        
+        /*Navbar*/
+        .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+        height: 72px;
+        width: 60%;
+        /*margin-top: -65px; 38%*/
+        /*z-index: 500; 32%*/
+        position: absolute;
+        left: 25%;
+        top: 18%;
+        }
+          
+        .wrapper {
+        width: 100%;  /*Vielleicht ausbauen!!!!!*/
+        margin: 0 auto;
+        /*left: 12%;
+        top: 54%;*/
+        }
+          
+        nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+        }
+          
+        nav ul {
+        display: flex;
+        width: 100%;
+        }
+          
+         
+          
+        .nav-items li {
+        list-style: none;
+        margin-right: 10%; /*100px*/
+            
+        }
+          
+        .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+        }
+          
+        .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+            
+        color: #292929;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /* Frame Logo */
+        .frame_logo{
+        position: absolute;
+        width: 28%;/*442px;*/
+        height: 8%;/*102px; 12%*/
+        /*left: 154px;
+        top: 262px;*/
+        left: 37%;
+        top: 3%;
+        }
+        
+        
+        
+        /* Group Logo */
+        .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+            
+        }
+        
+        
+        
+        
+        
+        /* Line 1 */
+        
+        hr.solid {
+        position: absolute;
+        width: 60%; /*568px*/
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 25%;
+        top: 15%;
+        
+        
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+        }
+        
+        .textblock{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        /*height: 100%;*/
+        /*height: 90%;*/
+        left: 0px;
+        top: 26%;
+        float: left;
+        background: #B9AFAE;
+        }
+        
+        .a_email{
+        color: #FFFFFF;
+        text-transform: lowercase;
+        }
+        
+        a{
+        color: #FFFFFF;
+        }   
+        
+        
+        
+        
+        .ptext{
+        position: relative; 
+        left: 25%;
+        width: 50%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 23px;
+        /*text-transform: capitalize;*/
+        
+        color: #FFFFFF;
+        
+        }
+        
+        
+        
+        .footer_box{
+        bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 10%;
+        background: #DEDEDE;
+        position: fixed;
+        
+        }
+        
+        
+        
+        /* © sandra pietzschmann Impressum datenschutz */
+        footer{
+        display: flex; 
+        float: left;
+            
+        position: fixed;
+        left: 38%;
+        width: 24%;    
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+        }
+
+        .pfooter{   
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        
+        
+        
+        
+        display: flex; 
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+        left: 38%;
+        }
+        .afooter{
+            
+        display: flex;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        word-spacing: 2em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        left: 45%;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+        /*Navbar*/
+    .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+        height: 72px;
+        width: 53%;
+        /*margin-top: -65px; 38%*/
+        /*z-index: 500; 32%*/
+        position: absolute;
+        left: 28%;
+        top: 18%;
+    }
+
+     /* Line 1 */
+        
+     hr.solid {
+        position: absolute;
+        width: 57%; /*568px*/
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 25%;
+        top: 15%;
+        
+        
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .header_container{
+        height: 25%;
+        top: 0%;
+        left: 0%; 
+        
+    }   
+        
+        /*Navbar*/
+        .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+        height: 72px;
+        width: 43%;
+        /*margin-top: -65px; 38%*/
+        /*z-index: 500; 32%*/
+        position: absolute;
+        left: 30%;
+        top: 18%;
+        }
+          
+        .wrapper {
+        width: 100%;  /*Vielleicht ausbauen!!!!!*/
+        margin: 0 auto;
+        /*left: 12%;
+        top: 54%;*/
+        }
+          
+        nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+        }
+          
+        nav ul {
+        display: flex;
+        width: 100%;
+        }
+          
+         
+          
+        .nav-items li {
+        list-style: none;
+        margin-right: 10%; /*100px*/
+            
+        }
+          
+        .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+        }
+          
+        .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+            
+        color: #292929;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /* Frame Logo */
+        .frame_logo{
+        position: absolute;
+        width: 28%;/*442px;*/
+        height: 8%;/*102px; 12%*/
+        /*left: 154px;
+        top: 262px;*/
+        left: 37%;
+        top: 3%;
+        }
+        
+        
+        
+        /* Group Logo */
+        .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+            
+        }
+        
+        
+        
+        
+        
+        /* Line 1 */
+        
+        hr.solid {
+        position: absolute;
+        width: 50%; /*568px*/
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 25%;
+        top: 15%;
+        
+        
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+        }
+        
+        .textblock{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        /*height: 100%;*/
+        /*height: 90%;*/
+        left: 0px;
+        top: 26%;
+        float: left;
+        background: #B9AFAE;
+        }
+        
+        .a_email{
+        color: #FFFFFF;
+        text-transform: lowercase;
+        }
+        
+        a{
+        color: #FFFFFF;
+        }   
+        
+        
+        
+        
+        .ptext{
+        position: relative; 
+        left: 25%;
+        width: 50%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 23px;
+        /*text-transform: capitalize;*/
+        
+        color: #FFFFFF;
+        
+        }
+        
+        
+        
+        .footer_box{
+        bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 10%;
+        background: #DEDEDE;
+        position: fixed;
+        
+        }
+        
+        
+        
+        /* © sandra pietzschmann Impressum datenschutz */
+        footer{
+        display: flex; 
+        float: left;
+            
+        position: fixed;
+        left: 38%;
+            
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+        }
+
+        .pfooter{   
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        
+        
+        
+        
+        display: flex; 
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+        left: 38%;
+        }
+        .afooter{
+            
+        display: flex;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #292929;
+        word-spacing: 2em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        left: 45%;
+    }
+}
