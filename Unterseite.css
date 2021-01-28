@@ -262,6 +262,7 @@ body{
         color: #FFFFFF;
 
     }
+
     .textblock{
         position: relative;
         display: flex;
@@ -390,8 +391,13 @@ body{
         /*top: 85%;*/
         background: #DEDEDE;
         text-align: center;
+        
     }
-
+    .h2_contact{
+        color: #B7A09E;
+        font-family: Roboto;
+        font-style: normal;
+    }
     .acontact_mail{
 
         font-family: "Roboto";

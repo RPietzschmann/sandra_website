@@ -155,7 +155,7 @@
         top: 1083px;
         bottom: 30%; left 2% width 98%*/
         left: 0%;
-        top: 80%;
+        top: 65%;
         text-align: center;
     }
 
@@ -169,6 +169,11 @@
        /* bottom: 30%;*/
         color: #B7A09E;
         text-align: center;
+    }
+    .h2_contact{
+        color: #B7A09E;
+        font-family: Roboto;
+        font-style: normal;
     }
     
 
@@ -230,9 +235,9 @@
         height: 72px;
         /*margin-top: -65px;*/
         /*z-index: 500;*/
-        width: 95%;
+        width: 99%;
         position: absolute;
-        left: 5%;
+        left: 1%;
         top: 20%;
     }
     .nav-items li a {
@@ -278,6 +283,16 @@
 }
 
 /*passt soweit*/
+@media screen and (min-width: 400px){
+    .nav-container {
+    height: 72px;
+    width: 95%;
+    position: absolute;
+    left: 5%;
+    top: 21%;
+    }
+}
+
 @media screen and (min-width: 450px) {
     body{
         background-image: url("pics/Sandra_klein2.png");
@@ -426,7 +441,7 @@
         top: 1083px;
         bottom: 30%;*/
         left: 2%;
-        top: 80%;
+        top: 65%;
     }
 
     .acontact_mail{
@@ -1146,7 +1161,7 @@
     
     hr.solid {
         position: absolute;
-        width: 38%; /*568px*/
+        width: 45%;/*38%; /*568px*/
         height: 0px;
         /*left: 78px;
         top: 417px;*/
@@ -1275,5 +1290,16 @@
         /*justify-content: space-between;*/
         /*text-align: center;*/
         left: 45%;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    hr.solid {
+        width: 42%;
+    }
+}
+@media screen and (min-width: 1445px){
+    hr.solid {
+        width: 38%;
     }
 }
