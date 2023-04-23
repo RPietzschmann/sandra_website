@@ -379,6 +379,29 @@ body{
         color: #FFFFFF;
         text-align: center;
     }
+    .pbeauty {
+        text-align: center;
+    }
+
+    li{
+        list-style: none;
+    }
+    .preisliste{
+        display: inline-block;
+        text-align: left;
+       
+        
+    }
+    .preisliste li{
+        list-style: circle;
+    }
+    .schwerpunkte{
+        display: inline-block;
+        text-align: left;
+    }
+    .schwerpunkte li{
+        list-style: circle;
+    }
 
     .ptext h3{
         font-style: italic;
@@ -2408,7 +2431,7 @@ body{
         width: 100%;
         /*height: 100%;*/
         /*height: 90%;*/
-        height: 45%;
+        height: 70%;
         left: 0px;
         top: 53%;
         float: left;
@@ -2432,7 +2455,7 @@ body{
         display: flex;
         width: 40%;
         /*height: 100%;*/
-        height: 90%;
+        /*height: 90%;*/
         left: 52%;
         top: 5%;
         float: left;
@@ -2672,7 +2695,7 @@ body{
             width: 100%;
             /*height: 100%;*/
             /*height: 90%;*/
-            height: 38%;
+            height: 55%;
             left: 0px;
             top: 55%;
             float: left;
@@ -2773,7 +2796,9 @@ body{
         
         }
         
-        
+        .pbeauty {
+            text-align: center;
+        }
         
         .footer_box{
         bottom: 0px;

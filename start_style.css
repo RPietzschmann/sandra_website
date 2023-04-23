@@ -138,7 +138,7 @@
         font-weight: 300;
         font-size: 20px;
         line-height: 23px;
-        text-transform: capitalize;
+        /*text-transform: capitalize;*/
         text-align: center;
         color: #B7A09E;
         left:0px; 
@@ -155,7 +155,7 @@
         top: 1083px;
         bottom: 30%; left 2% width 98%*/
         left: 0%;
-        top: 65%;
+        /*top: 65%;*/
         text-align: center;
     }
 
@@ -423,7 +423,7 @@
         font-weight: 300;
         font-size: 25px;
         line-height: 23px;
-        text-transform: capitalize;
+        /*text-transform: capitalize;*/
         text-align: center;
         color: #B7A09E;
         left:0px; 
@@ -441,7 +441,7 @@
         top: 1083px;
         bottom: 30%;*/
         left: 2%;
-        top: 65%;
+        /*top: 65%;*/
     }
 
     .acontact_mail{
@@ -643,7 +643,7 @@
         bottom: 30%;*/
         left: 0%;
         text-align: center;
-        top: 80%;
+        /*top: 80%;*/
     }
 
     .acontact_mail{
@@ -917,7 +917,7 @@
         font-size: 20px;
         line-height: 23px;
         text-align: center;
-        text-transform: capitalize;
+        /*text-transform: capitalize;*/
     
         color: #B7A09E;
         
@@ -932,8 +932,8 @@
         /*left: 468px;
         top: 1083px;
         bottom: 30%;*/
-        left: 10%; /*12%*/
-        top: 80%;
+        left: 0%; /*12%*/
+        /*top: 80%;*/
     }
     
     .acontact_mail{
@@ -1209,7 +1209,7 @@
         font-size: 20px;
         line-height: 23px;
         text-align: center;
-        text-transform: capitalize;
+        /*text-transform: capitalize;*/
     
         color: #B7A09E;
         
@@ -1224,8 +1224,8 @@
         /*left: 468px;
         top: 1083px;
         bottom: 30%;*/
-        left: 10%; /*12%*/
-        top: 80%;
+        left: 0%; /*12%*/
+        /*top: 80%;*/
     }
     
     .acontact_mail{
